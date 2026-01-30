@@ -1,0 +1,57 @@
+/*
+Name: Carson Nottingham
+File: style.css
+Date: 30 January 2026
+Description: Styling for Assignment 1 Part 2 (Structuring a page of content).
+*/
+
+body {
+    font-family: system-ui, Arial, sans-serif;
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* Layout spacing */
+header,
+nav,
+main,
+article,
+aside,
+footer {
+    padding: 1rem;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+/* Main layout */
+main {
+    display: flex;
+    gap: 2rem;
+}
+
+/* Article vs sidebar sizing */
+article {
+    flex: 2;
+}
+
+aside {
+    flex: 1;
+}
+
+/* Sidebar images */
+aside img {
+    width: 100%;
+    display: block;
+    margin-bottom: 0.75rem;
+}
+
+/* Footer */
+footer {
+    border-top: 1px solid #ccc;
+}

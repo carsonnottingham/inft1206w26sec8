@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <!--
+    Name: Carson Nottingham
+    File: letter.html
+    Date: 30 January 2026
+    Description: Assignment 1 Part 1. This page completes the MDN “Marking up a letter” task by turning a plain-text letter into properly structured HTML using headings, addresses, lists, and inline semantic elements.
+    -->
+
+    <meta name="author" content="Dr. Eleanor Gaye">
+    <title>Awesome science application correspondence</title>
+
+    <style>
+        body {
+            font: 1.2em / 1.5 system-ui;
+        }
+
+        .sender-column {
+            text-align: right;
+        }
+
+        h1 {
+            font-size: 1.5em;
+        }
+
+        h2 {
+            font-size: 1.3em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <address class="sender-column">
+        <strong>Dr. Eleanor Gaye</strong><br>
+        Awesome Science faculty<br>
+        University of Awesome<br>
+        Bobtown, CA 99999,<br>
+        USA<br>
+        <strong>Tel:</strong> 123-456-7890<br>
+        <strong>Email:</strong> <a href="mailto:no_reply@example.com">no_reply@example.com</a>
+    </address>
+
+    <p class="sender-column">
+        <time datetime="2016-01-20">20 January 2016</time>
+    </p>
+
+    <address>
+        <strong>Miss Eileen Dover</strong><br>
+        4321 Cliff Top Edge<br>
+        Dover, CT9 XXX<br>
+        UK
+    </address>
+
+    <h1>Re: Eileen Dover university application</h1>
+
+    <p>Dear <strong>Eileen</strong>,</p>
+
+    <p>
+        Thank you for your recent application to join the University of Awesome’s
+        science faculty to study as part of your
+        <abbr title="Doctor of Philosophy">PhD</abbr> (Doctor of Philosophy) next year.
+        Below, I’ve gone through your questions one at a time.
+    </p>
+
+    <h2>Starting dates</h2>
+
+    <p>
+        We’re flexible when it comes to start dates, but beginning at the start
+        of a semester usually works best. The available semester start dates are
+        listed below.
+    </p>
+
+    <ul>
+        <li>First semester: <time datetime="2016-09-09">9 September 2016</time></li>
+        <li>Second semester: <time datetime="2017-01-15">15 January 2017</time></li>
+        <li>Third semester: <time datetime="2017-05-02">2 May 2017</time></li>
+    </ul>
+
+    <p>
+        Let me know which option works best for you.
+    </p>
+
+    <h2>Subjects of study</h2>
+
+    <p>
+        Our science faculty is fairly open when it comes to research topics, as
+        long as they stay within science and technology. You come across as
+        motivated and capable, which is exactly what we look for in our students.
+        Of the ideas you submitted, the following stood out the most.
+    </p>
+
+    <ol>
+        <li>
+            Turning H<sub>2</sub>O into wine and studying the health benefits of
+            Resveratrol (C<sub>14</sub>H<sub>12</sub>O<sub>3</sub>).
+        </li>
+        <li>
+            Measuring how funk bass players perform at temperatures above
+            30&deg;C (86&deg;F) as audience sizes increase from
+            3 &times; 10<sup>3</sup> to 3 &times; 10<sup>4</sup>.
+        </li>
+        <li>
+            Using <abbr title="Hypertext Markup Language">HTML</abbr> and
+            <abbr title="Cascading Style Sheets">CSS</abbr> to represent musical
+            scores.
+        </li>
+    </ol>
+
+    <p>
+        Please send along more details for each topic, including timelines,
+        required resources, and any additional information you think is relevant.
+        <strong>Thanks.</strong>
+    </p>
+
+    <h2>Exotic dance moves</h2>
+
+    <p>
+        You were right — during my post-doctorate work, I
+        <em>did</em> spend time studying exotic tribal dances. Below are a few
+        favourites, along with short explanations.
+    </p>
+
+    <dl>
+        <dt>Polynesian chicken dance</dt>
+        <dd>
+            A surprisingly influential dance dating back to around
+            300 <abbr title="Before Common Era">BCE</abbr>, traditionally performed
+            to encourage prosperity and growth.
+        </dd>
+
+        <dt>Icelandic brownian shuffle</dt>
+        <dd>
+            A dance used for warmth before fire became common, involving close
+            group movement and very small, rapid motions. Some believe it helped
+            inspire modern styles like <em>Twerking</em>.
+        </dd>
+
+        <dt>Arctic robot dance</dt>
+        <dd>
+            A movement style mistakenly identified as a dance by explorers in the
+            1960s, later understood to simply be people reacting to extreme cold.
+        </dd>
+    </dl>
+
+    <p>Yours sincerely,</p>
+
+    <p><strong>Dr Eleanor Gaye</strong></p>
+
+    <p>
+        University of Awesome motto:
+        <q>Be awesome to each other.</q><br>
+        <cite>&mdash; The memoirs of Bill S Preston, <abbr title="Esquire">Esq.</abbr></cite>
+    </p>
+
+</body>
+</html>
