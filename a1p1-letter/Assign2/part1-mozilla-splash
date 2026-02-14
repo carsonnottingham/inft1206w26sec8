@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!--
+    Name: Carson Nottingham
+    File: index.html
+    Date: February 13, 2026
+    Description: Assignment 2 Part 1 - simple multimedia + embedding practice page.
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Multimedia Practice</title>
+</head>
+
+<body>
+    <h1>Multimedia Practice</h1>
+    <p>I kept this page simple on purpose. It just shows I can embed different types of media in valid HTML.</p>
+
+    <h2>Image</h2>
+    <figure>
+        <img
+            src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Firefox_logo%2C_2019.svg"
+            alt="Firefox logo"
+            width="220"
+            height="220">
+        <figcaption>Example image (Firefox logo).</figcaption>
+    </figure>
+
+    <h2>Video</h2>
+    <video controls width="520">
+        <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
+        Sorry, your browser can’t play this video.
+    </video>
+
+    <h2>Audio</h2>
+    <audio controls>
+        <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3" type="audio/mpeg">
+        Sorry, your browser can’t play this audio.
+    </audio>
+
+    <h2>Embedded page</h2>
+    <iframe
+        src="https://developer.mozilla.org/en-US/"
+        title="MDN Web Docs"
+        width="700"
+        height="350"
+        loading="lazy">
+    </iframe>
+
+    <p><a href="../part2-planet-table/planets.html">Go to Part 2 (Tables)</a></p>
+</body>
+</html>
